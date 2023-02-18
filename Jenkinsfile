@@ -12,7 +12,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Starting Testing'
-                sh '/var/jenkins_home/workspace/PES1UG20CS083-1/main/hello_execfailure'
+                sh '/var/jenkins_home/workspace/PES1UG20CS083-1/main/hello_exec'
                 echo 'Test Completed'
             }
         }
